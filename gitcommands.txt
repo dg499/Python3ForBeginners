@@ -1,0 +1,46 @@
+git clone https://github.com/dg499/Python3ForBeginners.git
+git log -1
+cd Python3ForBeginners
+git log -1
+git branch
+git pull -a
+echo "Python for Absolute Beginners. Learn Python Programming using a Step By Step Approach with 200+ code examples." > README.md
+dir
+git checkout -b develop
+git branch
+git add README.md
+git status
+git log -1
+git commit
+git log -1
+git log -2
+git commit -m "added README.md"
+git branch
+git log -2
+git push origin
+ git push --set-upstream origin develop
+git branch
+git log -3
+git pull -a
+git log -1
+git log -3
+git rebase develop
+git rebase master
+git log -2
+git reset --hard origin/develop
+git log -1
+git checkout master
+git pull
+git log -2
+git log -1
+git branch
+git checkout deveop
+git checkout master
+git rebase develop
+git log -3
+git push 
+git log -1
+git checkout develop
+git pull -a
+git log -1
+doskey /history > commands.txt
